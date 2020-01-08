@@ -2,7 +2,7 @@
 # Maintainer: Roland Singer <roland[at]manjaro[dog]org>
 
 pkgname=('mhwd-ati')
-pkgver=7.7.0
+pkgver=19.1.0
 pkgrel=1
 
 pkgdesc="MHWD module-ids for ati $pkgver"
@@ -11,7 +11,7 @@ url="http://xorg.freedesktop.org/"
 license=('custom')
 source=(${url}/releases/individual/driver/xf86-video-ati-${pkgver}.tar.bz2 mhwd-ati)
 
-sha256sums=('844d1c577b145c90dc8ef027678f0c27f554363f782cd696a3aea26415b2c1c3'
+sha256sums=('659f5a1629eea5f5334d9b39b18e6807a63aa1efa33c1236d9cc53acbb223c49'
             '98ff6b7a8cc0b69ebf1e7b6b04a15717e9d8aae43d9b771b3ac83a5f4d44e157')
 
 package() {
